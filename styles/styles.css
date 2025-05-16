@@ -20,3 +20,40 @@ img {
 p{
     padding: 10px;
 }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+aside {
+    width: 20rem;
+    margin: 1rem 0;
+    border: 1px solid rgb(0 0 0 / 0.2); 
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+aside img {
+width: 100%;
+height: auto;
+display: block;
+margin-bottom: 1rem;
+}
+main img { 
+width: 150px;
+height: auto;
+}
+
+p { padding: 0;
+line-height: 1.6;
+margin-bottom: 1rem;
+}
+footer {
+margin-top: 15px;
+border-top: 1px solid #000;
+text-align: center;
+background-color: #222;
+color: #fff;
+padding: 1rem;
+}
