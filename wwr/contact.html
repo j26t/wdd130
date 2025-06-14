@@ -13,81 +13,70 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="logo"></div>
+    <header>
         <img src="images/z-crossedoars.jpeg" alt="Rafting Company Logo">
-        <nav class="main-nav">
+        <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+            <li></li><a href="index.html">Home</a></li>
+            <li></li><a href="about.html">About Us</a></li>
+            <li></li><a href="trips.html">Trips</a></li>
+            <li></li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="grid">
+        <form action="#" class="contactform">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+            <fieldset class="radio-input">
+                <input type="radio" id="general" name="gq" value="general" checked>
+                <label for="general">General Question</label>
+                <input type="radio" id="reservation" name="res" value="reservation">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="Website" name="web" value="Website">
+                <label for="Website">Website Suggestion</label>
+            </fieldset>
+            <fieldset>
+                <label for="Message">Message:</label>
+                <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div class="signup">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <section class="address">
+            <h2> Our Contact Info</h2>
+            <address>Ad124venture Lane, Wild River, USA</address>
+            <a href="tel:+ 1 (555) 123-34287"></a>
+            <a href="mailto:info@company.com">info@company.com"</a>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d93087.14224922919!2d-13.246597882901229!3d8.473984749395116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1749482192951!5m2!1sen!2ssl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="gmap"></iframe>
+        </section>
+        </iframe>
+        </div>
         <div class="section">
-            <h1>Contact Us</h1>
-            <div class="contact-info">
-                <span class="label">
-                    <Address:>
-                </span>
-                <span class="value">124 Adventure Lane, Wild River, USA</span>
-            </div>
-            <div class="contact-info">
-                <span class="label">Phone:</span>
-                <span class="value">+1 (555) 123-34287</span>
-            </div>
-            <div class="contact-info">
-                <span class="label">Email:</span>
-                <span class="value"><a href="mailto:info@company.com">info@company.com</a></span>
-            </div>
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d93087.14224922919!2d-13.246597882901229!3d8.473984749395116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1749482192951!5m2!1sen!2ssl"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </iframe>
-            </div>
-            <div class="section">
-                <h2>Meet our Employees</h2>
-                <div class="Employee-gallery">
-                    <figure>
-                        <img src="images/employee1.jpg" alt="employee1">
-                        <figcaption>John Saffa - Rafting MD</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="imeges/employee2.jpg" alt="employee2">
-                        <figcaption>Alice Bull - Rafting Accountant</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/employee3.jpg" alt="employee3">
-                        <figcaption>Bob Brown - Data Analyst</figcaption>
-                    </figure>
-                </div>
-                <form>
-                    <div class="section">
-                        <h2>Contact Form</h2>
-                        <label for="name">Username:</label>
-                        <input type="text" id="username" name="username"></label>
-                        <label for="email">EmailAddress:</label>
-                        <input type="email" id="email" name="email"></label>
-                        <label>Purpose Of Message:</label>
-                        <div class="radio-group"><label><input type="radio" name="Purpose"
-                                    value="General Inquiry">General Inquiry</label>
-                            <label><input type="radio" name="purpose" value="Reservation Question">Reservation
-                                Question</label>
-                            <label><input type="radio " name="purpose" valve="Website suggestion">Website
-                                suggestion</label>
-                        </div>
-                        <label for="Message">Your Message:</label>
-                        <text area id="Message" name="user-mesage" row="5" required></textarea>
-                            <div class="checkbox-group">
-                                <label><input type="checkbox" name="subscribe">Please subscribe me to the monthly
-                                    newsletter</label>
-                            </div>
-                            <button type="submit">Submit Message</button>
-                </form>
+            <h2>Meet our Employees</h2>
+            <div class="Employee-gallery">
+                <figure>
+                    <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="employee1">
+                    <figcaption>Micheal Johnson - Rafting MD</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="employee2">
+                    <figcaption>Bob smith - Rafting Accountant</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="employee3">
+                    <figcaption>Susan Brown - Data Analyst</figcaption>
+                </figure>
             </div>
             </section>
     </main>
