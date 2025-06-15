@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Contact Information</title>
+    <meta name="description" content="Way you can contact us for any Questions or concerns you may have.">
+    <meta name="author" content="John Saffa">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts\.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=merriweather:wght@300;700;900&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -14,26 +16,26 @@
 
 <body>
     <header>
-        <img src="images/z-crossedoars.jpeg" alt="Rafting Company Logo">
+        <img src="images/z-crossedoars.jpeg" alt="Rafting Company Logo" class="Logo">
         <nav>
-            <ul>
-            <li></li><a href="index.html">Home</a></li>
-            <li></li><a href="about.html">About Us</a></li>
-            <li></li><a href="trips.html">Trips</a></li>
-            <li></li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">Aboutus</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contactus</a>
         </nav>
     </header>
-    <main class="grid">
+    </body>
+    <main>
+    <main class="grid contactus">
         <form action="#" class="contactform">
             <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="emaiaddress" required>
             </fieldset>
             <fieldset class="radio-input">
-                <input type="radio" id="general" name="gq" value="general" checked>
+                <input type="radio" id="general" name="drone" value="general" checked>
                 <label for="general">General Question</label>
                 <input type="radio" id="reservation" name="res" value="reservation">
                 <label for="reservation">Reservation Question</label>
@@ -48,41 +50,39 @@
                 <input type="checkbox" name="newsletter" id="newsletter">
                 <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
             </div>
-            <button type="submit">Send Message</button>
+            <button type="submit" class="submit-button">Send Message</button>
         </form>
         <section class="address">
             <h2> Our Contact Info</h2>
-            <address>Ad124venture Lane, Wild River, USA</address>
-            <a href="tel:+ 1 (555) 123-34287"></a>
+            <address>52 charles street , Freetown Sierra leone</address>
+            <a href="tel:+23288774567"></a>
             <a href="mailto:info@company.com">info@company.com"</a>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d93087.14224922919!2d-13.246597882901229!3d8.473984749395116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1749482192951!5m2!1sen!2ssl"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="gmap"></iframe>
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="gmap">
         </section>
         </iframe>
-        </div>
-        <div class="section">
+        <section class="grid Employees">
             <h2>Meet our Employees</h2>
-            <div class="Employee-gallery">
-                <figure>
-                    <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="employee1">
-                    <figcaption>Micheal Johnson - Rafting MD</figcaption>
-                </figure>
-                <figure>
-                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="employee2">
-                    <figcaption>Bob smith - Rafting Accountant</figcaption>
-                </figure>
-                <figure>
-                    <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="employee3">
-                    <figcaption>Susan Brown - Data Analyst</figcaption>
-                </figure>
-            </div>
-            </section>
+            <figure>
+                <img src="https://randomuser.me/api/portraits/men/63.jpg" alt="MD">
+                <figcaption>Micheal Johnson - Rafting MD</figcaption>
+            </figure>
+            <figure>
+                <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Accountant">
+                <figcaption>Bob smith - Rafting Accountant</figcaption>
+            </figure>
+            <figure>
+                <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="Data Analyst">
+                <figcaption>Susan Brown - Data Analyst</figcaption>
+            </figure>
+        </section>
     </main>
     <footer>
         <footer class="footer">
-            <p>©2025 Rafting Company | John Saffa Follow us:</p>
+            <p>©2025 Rafting Company | John Saffa Follow us: </p>
+            <a href="images/Untitled Diagram-contact us (2).webp" target="_blank">View Contact us wireframe</a>
             <nav class="socialmedia">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.svg" alt="Facebook">
