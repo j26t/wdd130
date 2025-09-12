@@ -16,6 +16,13 @@ nav a {
     display: block;
 }
 
+h1 {
+    color: aliceblue;
+    background-color: darkblue;
+    padding: 20px;
+    margin: 20px;
+}
+
 h2 {
     color: aliceblue;
     background-color: darkblue;
@@ -27,6 +34,11 @@ aside {
     background-color: rgb(220, 200, 230, 1.5%);
     padding: 15px;
     margin: 10px;
+}
+
+.coding {
+    color: paleturquoise;
+
 }
 
 footer {
