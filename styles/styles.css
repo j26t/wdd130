@@ -17,6 +17,28 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid rgba(55 80 50 /0.8);
+    padding: 2px;
+    box-shadow:0 0 30px blue;
+}
+header {
+    background-color: darkblue;
+    color: #fff;
+    margin: 5px;
+    padding: 25px;
+}
+nav {
+    background-color: gray;
+    color: #fff;
+    padding:10px ;
+}
+nav a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+h1 {
+    color: #333;
 }
 p {padding: 0;}
 footer {
