@@ -53,3 +53,32 @@ p {
 #devtools-btn:active {
     background-color: #2a3a4a;
 }
+section img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+ section h2 {
+    text-align: center;
+    margin:15px ;
+}
+
+.text-container {
+    display: flex;
+    gap:20px;
+}
+.text-container p {
+    flex:1
+}
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.adventure img {
+    display: grid;
+    width: 100%;
+    text-decoration: none;
+}
+
+
