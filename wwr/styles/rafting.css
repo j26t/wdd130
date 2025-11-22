@@ -47,7 +47,7 @@ body {
     color:var(--primary-color)
 }
 
-h1, h2 {
+ h2 {
     font-family: var(--heading-font);
     color:var(--accent1-color) ;
 }
@@ -117,10 +117,10 @@ section {
     position: absolute;
     top: 20px;
     left: 50px;
-    
     background-color: var(--accent2-color);
     padding: 10px 20px;
     border-radius: 8px;
+    color: var(--accent1-color);
 }
 .hero article {
     position: absolute;
