@@ -169,3 +169,64 @@ footer.socialmedia img {
     height: auto;
     object-fit: contain;
 }
+
+/* setting up the contact page */
+
+.contact-info {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+iframe {
+    width: 350px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+textarea,
+input,
+button {
+    padding: .75rem;
+    width: 350px;
+}
+
+label {
+    width: 100px;
+}
+
+input {
+    margin: 4px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #999;
+    color: #000;
+}
+
+
+.contact-info h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.container form p {
+    text-align: left;
+    display: block;
+    margin: 4px;
+}
+
+.employee-profile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.employee img {
+    width: 100px;
+    height: auto;
+}
