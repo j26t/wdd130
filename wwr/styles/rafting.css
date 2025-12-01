@@ -230,3 +230,147 @@ button {
     width: 100px;
     height: auto;
 }
+/* setting  up the home */
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-items img {
+    display: grid;
+    width: 400px;
+    height: auto;
+    margin-left: 300px;
+}
+
+.grid-items p {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.home-page p {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #cce6ff;
+}
+
+.home-page h2 {
+    text-align: center;
+    font-weight: 300px;
+}
+
+.home-page.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.home-page .hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.home-page h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 16px;
+    opacity: 0.8;
+    background-color: #264653;
+}
+
+.home-page h1 {
+    font-family: var(--heading-font);
+}
+
+.home-page .container {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+.home-page body {
+    font-family: var(--body-font);
+    background-color: whitesmoke;
+    line-height: 1.6;
+}
+
+.home-page button {
+    border-radius: 5px;
+    background-color: var(--accent-color2);
+    color: #000;
+}
+
+
+
+/* setting up the trips page */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.8em;
+    min-width: 400px;
+}
+
+.content-table thead tr {
+    background-color: #264653;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    border: 1px solid gray;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid blue;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgba(55, 80, 55, 0.5);
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+main.trips-page {
+    width: 80%;
+    max-width: 10000px;
+    margin: 2rem auto;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.image-row img {
+    width: 32%;
+    border-radius: 10px;
+}
+
+.trip-page body {
+    font-family: var(--body-font);
+    background-color: whitesmoke;
+    line-height: 1.6;
+}
